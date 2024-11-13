@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Déclaration du jeu de caractères et du viewport pour la responsivité -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Liens vers les feuilles de style -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Inclusion de jQuery et de Bootstrap JavaScript (JS) -->
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script src="./js/popper_min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- Titre de la page web -->
+    <title>Portfolio</title>
+
+    <!-- Styles en ligne pour les cartes -->
+    <style>
+        .card {
+            background: none;
+            border-radius: 2%;
+            padding: 15%;
+            margin: 8%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Barre de navigation Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Fifth navbar example">
+        <div class="container-fluid">
+            <!-- Lien vers la page d'accueil (Présentation) -->
+            <a class="nav-link active" aria-current="page" href="index.html">Présentation</a>
+    
+            <!-- Bouton pour le basculement de la barre de navigation sur les petits écrans -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Contenu de la barre de navigation -->
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+                <ul class="navbar-nav me-auto mb-5 mb-lg-0">
+                    <!-- Liens vers d'autres pages -->
+                    <li class="nav-link">
+                        <a class="nav-link active" aria-current="page" href="competences.html">Compétences</a>
+                    </li>
+                    <li class="nav-link">
+                        <a class="nav-link active" aria-current="page" href="interets.html">Intérêts</a>
+                    </li>
+                    <li class="nav-link">
+                        <a class="nav-link active" aria-current="page" href="projetprofessionnel.html">Projet Professionnel</a>
+                    </li>
+                    <li class="nav-link">
+                        <a class="nav-link active" aria-current="page" href="liensutiles.html">Liens Utiles</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cartes avec des liens vers les réseaux sociaux et les contacts -->
+    <div class="container-fluid">
+        <aside class="row">
+            <article class="col-sm-12 col-md-4 mb-4 themed-grid-col">
+                <div class="card-group">
+                    <!-- Première carte -->
+                    <div class="card">
+                        <!-- Image en haut de la carte -->
+                        <img src="images/insta.png" class="card-img-top" alt="Instagram Icon">
+                        <!-- Contenu de la carte -->
+                        <div class="card-body">
+                            <!-- Titre de la carte -->
+                            <h5 class="card-title">Instagram</h5>
+                            <!-- Texte de la carte -->
+                            <p class="card-text">My personal account:</p>
+                            <!-- Bouton dans une grille pour rediriger vers le compte Instagram -->
+                            <div class="d-grid gap-2">
+                                <a href="https://www.instagram.com/y.meill/" class="btn btn-primary">My Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-12 col-md-4 mb-4 themed-grid-col">
+                <div class="card-group">
+                    <!-- Deuxième carte -->
+                    <div class="card">
+                        <img src="images/link.png" class="card-img-top" alt="Linkedin Icon">
+                        <div class="card-body">
+                            <h5 class="card-title">Linkedin</h5>
+                            <p class="card-text">My professional account:</p>
+                            <div class="d-grid gap-2">
+                                <a href="https://www.linkedin.com/in/youenn-meillarec-b3591a294/" class="btn btn-primary">My Linkedin</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-12 col-md-4 mb-4 themed-grid-col">
+                <div class="card-group">
+                    <!-- Troisième carte -->
+                    <div class="card">
+                        <img src="images/mail.png" class="card-img-top" alt="Icon Mail and Phone">
+                        <div class="card-body">
+                            <h5 class="card-title">Email and Phone</h5>
+                            <p class="card-text">Email: <br> youenn.meillarec@orange.fr <br> phone:<br> 06 08 66 34 30</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </aside>
+    </div>
+
+    <!-- Pied de page avec des informations de copyright et un lien Bootstrap -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">© 2024 MEILLAREC Youenn</p>
+
+            <!-- Lien Bootstrap dans le pied de page -->
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+
+            <!-- Liens de navigation dans le pied de page -->
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Back to top</a></li>
+            </ul>
+        </footer>
+    </div>
+
+</body>
+
+</html>

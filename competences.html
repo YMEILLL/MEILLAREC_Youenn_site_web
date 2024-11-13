@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Déclaration du jeu de caractères et du viewport pour la responsivité -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Liens vers les feuilles de style -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Inclusion de jQuery et de Bootstrap JavaScript (JS) -->
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script src="./js/popper_min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- Titre de la page web -->
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- Barre de navigation Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Fifth navbar example">
+        <div class="container-fluid">
+            <!-- Lien vers la page d'accueil (Présentation) -->
+            <a class="nav-link active" aria-current="page" href="index.html">Présentation</a>
+    
+            <!-- Bouton pour le basculement de la barre de navigation sur les petits écrans -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Contenu de la barre de navigation -->
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+                <ul class="navbar-nav me-auto mb-5 mb-lg-0">
+                    <!-- Liens vers d'autres pages -->
+                    <li class="nav-link">
+                        <a class="nav-link active" aria-current="page" href="competences.html">Compétences</a>
+                    </li>
+                    <li class="nav-link">
+                        <a class="nav-link active" aria-current="page" href="interets.html">Intérêts</a>
+                    </li>
+                    <li class="nav-link">
+                        <a class="nav-link active" aria-current="page" href="projetprofessionnel.html">Projet Professionnel</a>
+                    </li>
+                    <li class="nav-link">
+                        <a class="nav-link active" aria-current="page" href="liensutiles.html">Liens Utiles</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <img src="./images/RT.png" alt="Logo R&T">
+    </div>
+
+    <!-- Menu déroulant pour sélectionner la compétence -->
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <!-- Structure du menu déroulant -->
+            <div class="dropdown">
+                <!-- Bouton du menu déroulant -->
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Compétences
+                </button>
+                <!-- Options du menu déroulant -->
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <!-- Options du menu déroulant avec liens vers des sections spécifiques -->
+                    <a class="dropdown-item" href="#reseaux">Réseaux</a>
+                    <a class="dropdown-item" href="#informatiques">Informatiques</a>
+                    <a class="dropdown-item" href="#securite">Sécurité</a>
+                    <a class="dropdown-item" href="#bdd">Base de Données</a>
+                    <a class="dropdown-item" href="#programmation">Programmation</a>
+                    <a class="dropdown-item" href="#systeme">Système</a>
+                    <a class="dropdown-item" href="#gestionprojet">Gestion de projet</a>
+                    <a class="dropdown-item" href="#anglais">Anglais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenu détaillé des compétences -->
+    <div class="container mt-5">
+        <!-- Compétence Réseaux -->
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <!-- Titre avec lien d'ancre -->
+                <h4><a id="reseaux">Réseaux</a></h4>
+                <!-- Description détaillée de la compétence -->
+                <p>
+                    Spécialiste des technologies informatiques, je maîtrise les concepts des réseaux, protocoles de communication, ainsi que la configuration et l'administration de réseaux informatiques.<br>
+                    Mon expertise me permet d'assurer un fonctionnement fluide des échanges d'informations.<br>
+                    J'ai une expérience avérée dans la résolution de problèmes, la mise en place de solutions efficaces et le respect des meilleures pratiques de gestion des réseaux.
+                    <br>
+                    Au cours de ma première année, j'ai entrepris un projet stimulant consistant à concevoir le réseau informatique d'une station polaire.<br>
+                    Mon approche a débuté par une analyse approfondie des besoins spécifiques du client, prenant en compte les conditions environnementales extrêmes et les exigences opérationnelles uniques d'une station polaire.<br>
+                    J'ai ensuite présenté ma solution de manière argumentée, mettant en avant des choix technologiques robustes pour assurer une connectivité fiable, une gestion efficace des données et une sécurité renforcée,<br>
+                    tout en intégrant des considérations environnementales telles que la résistance aux conditions climatiques difficiles.<br>
+                    Ce projet a consolidé ma capacité à aligner des solutions techniques sur des besoins particuliers, démontrant ainsi ma compréhension des défis spécifiques aux environnements polaires.</p>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <!-- Section sur la Sécurité -->
+                <h4><a id="securite">Sécurité</a></h4>
+                <p>
+                    À travers la certification MOOC de l'ANSSI, j'ai acquis une expertise approfondie en matière de sécurité informatique.<br>
+                    Ce cours en ligne m'a permis de développer une compréhension pointue des principes fondamentaux de la protection des systèmes d'information, couvrant des sujets tels que la cryptographie, la gestion des risques, la sécurité des réseaux, et la conformité réglementaire.<br>
+                    Cette certification atteste de ma capacité à mettre en œuvre des pratiques de sécurité avancées conformes aux normes les plus rigoureuses, renforçant ainsi mes compétences dans le domaine de la sécurité des systèmes d'information.</p>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <!-- Section sur la Base de Données -->
+                <h4><a id="bdd">Base de Données</a></h4>
+                <p>Mon expertise s'étend à la conception, à l'administration et à l'optimisation de bases de données, avec une compétence particulière dans l'utilisation des langages SQL pour la manipulation de données.<br>
+                Ma capacité à concevoir des bases de données efficaces, à assurer une administration robuste et à optimiser les performances me distingue.<br>
+                J'exerce une maîtrise avancée des requêtes SQL, permettant une manipulation précise et efficiente des données.<br>
+                Cette combinaison de compétences me positionne comme un professionnel capable de garantir la disponibilité, l'intégrité et la performance optimale des bases de données.</p>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <!-- Section sur la Programmation -->
+                <h4><a id="programmation">Programmation</a></h4>
+                <p>
+                Je suis spécialisé dans le développement de logiciels, démontrant une maîtrise avancée de divers langages de programmation.<br>
+                Mon expertise s'étend à la résolution efficace de problèmes algorithmiques, garantissant des solutions logicielles robustes et optimisées.<br>
+                En particulier, j'ai récemment réalisé un projet web significatif, consistant en la création d'un portefeuille en ligne.<br>
+                Ce projet a mis en lumière mes compétences en conception web, développement backend et frontend, ainsi que ma capacité à créer des interfaces utilisateur conviviales, renforçant ainsi mon profil polyvalent en développement logiciel.</p>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <!-- Section sur les Systèmes -->
+                <h4><a id="systeme">Système</a></h4>
+                <p>Maîtrisant l'art de gérer efficacement les systèmes d'exploitation, je suis compétent dans la configuration, la maintenance et l'optimisation de ces environnements.<br>
+                    La virtualisation constitue une partie intégrante de mes compétences, où je suis capable de créer et de gérer des environnements virtuels pour maximiser l'efficacité des ressources matérielles.<br>
+                    Cette combinaison de compétences me permet d'assurer la stabilité, la sécurité et les performances optimales des systèmes d'exploitation que je gère, offrant ainsi une infrastructure informatique fiable.</p>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <!-- Section sur la Gestion de Projet -->
+                <h4><a id="gestionprojet">Gestion de projet</a></h4>
+                <p>Fort de mes compétences en gestion de projets, je suis apte à élaborer des plans détaillés, à coordonner les différentes phases et à assurer un suivi rigoureux pour respecter les délais impartis.<br>
+                    Ma gestion des ressources, combinée à une expertise dans la gestion du temps, garantit l'efficacité opérationnelle tout au long du cycle de vie du projet.<br>
+                    Mon engagement envers l'excellence m'autorise à mener des projets informatiques avec succès, en assurant une allocation judicieuse des ressources et en respectant les échéances fixées.</p>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <!-- Section sur l'Anglais -->
+                <h4><a id="anglais">Anglais</a></h4>
+                <p>Doté de compétences linguistiques solides en anglais, je possède la capacité à communiquer de manière efficace dans un contexte professionnel.<br>
+                    Mon niveau de maîtrise de la langue anglaise me permet de rédiger des documents professionnels, de participer à des réunions internationales, et de collaborer efficacement avec des collègues et partenaires anglophones.<br>
+                    Cette aptitude à m'exprimer avec clarté et précision contribue à établir des relations professionnelles fructueuses et à assurer une communication fluide au sein d'équipes multiculturelles, renforçant ainsi ma valeur en tant que professionnel polyglotte.</p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- Pied de page avec des informations de copyright et un lien Bootstrap -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">© 2024 MEILLAREC Youenn</p>
+
+            <!-- Lien Bootstrap dans le pied de page -->
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+
+            <!-- Liens de navigation dans le pied de page -->
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Back to top</a></li>
+            </ul>
+        </footer>
+    </div>
+
+</body>
+
+</html>

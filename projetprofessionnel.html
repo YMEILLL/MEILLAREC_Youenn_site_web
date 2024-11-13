@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Déclaration du jeu de caractères et du viewport pour la responsivité -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Liens vers les feuilles de style -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Inclusion de jQuery et de Bootstrap JavaScript (JS) -->
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script src="./js/popper_min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- Titre de la page web -->
+    <title>Portfolio</title>
+
+    <style>
+        .div,
+        img {
+            /* Définir une marge à gauche de 300 pixels */
+            margin-left: 30px;
+            /* Définir une hauteur fixe de 300 pixels */
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Barre de navigation Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Fifth navbar example">
+        <div class="container-fluid">
+            <!-- Lien vers la page d'accueil (Présentation) -->
+            <a class="nav-link active" aria-current="page" href="index.html">Présentation</a>
+
+            <!-- Bouton pour le basculement de la barre de navigation sur les petits écrans -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Contenu de la barre de navigation -->
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+                <ul class="navbar-nav me-auto mb-5 mb-lg-0">
+                    <!-- Liens vers d'autres pages -->
+                    <li class="nav-link">
+                        <a class="nav-link active" aria-current="page" href="competences.html">Compétences</a>
+                    </li>
+                    <li class="nav-link">
+                        <a class="nav-link active" aria-current="page" href="interets.html">Intérêts</a>
+                    </li>
+                    <li class="nav-link">
+                        <a class="nav-link active" aria-current="page" href="projetprofessionnel.html">Projet Professionnel</a>
+                    </li>
+                    <li class="nav-link">
+                        <a class="nav-link active" aria-current="page" href="liensutiles.html">Liens Utiles</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <div>
+        <!-- Première division avec une image -->
+        <img src="./images/projet_pro.png" alt="Images Projets Pro">
+    </div>
+
+    <div class="row">
+        <!-- Deuxième division avec une mise en page Bootstrap en colonnes -->
+        <div class="col-4">
+            <!-- Liste déroulante Bootstrap -->
+            <div id="list-example" class="list-group">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">Alternances</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Poursuite d'Etude</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Futurs Métiers envisageables</a>
+            </div>
+        </div>
+
+        <div class="col-8">
+            <!-- Contenu de la colonne principale avec un défilement Bootstrap -->
+            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                <!-- Section sur les Alternances -->
+                <h4 id="list-item-1">Alternances</h4>
+                <p>Choisir l'alternance, pour moi, c'est un mélange équilibré entre apprendre à l'école et appliquer ces connaissances dans un vrai travail.<br> Cela signifie que je pourrai acquérir des compétences pratiques tout en consolidant ce que j'apprends
+                    en cours.<br> Ce qui me plaît vraiment, c'est que ça offre une expérience professionnelle concrète dès le début, me permettant de comprendre vraiment comment ça se passe dans le monde du travail.<br> En plus, l'alternance me donne
+                    la chance de jongler entre mes études et un job, ce qui peut aussi aider financièrement.<br> En résumé, ça semble être une super opportunité pour grandir à la fois personnellement et professionnellement.<br> Je suis vraiment excité(e)
+                    à l'idée de commencer cette aventure éducative et professionnelle, convaincu(e) que cela va préparer au mieux mon avenir.</p>
+
+                <!-- Section sur la Poursuite d'Étude -->
+                <h4 id="list-item-2">Poursuite d'Etude</h4>
+                <p>
+                    J'aimerais poursuivre mes études à l'école d'ingénieurs ESNA ou à l'ENSSAT, cela représente pour moi une opportunité exceptionnelle.<br> Cette décision s'explique par le désir de combiner théorie et pratique dans un environnement éducatif
+                    de qualité.<br> Ces écoles offrent un équilibre parfait entre enseignement académique et expérience pratique, ce qui me permettra d'acquérir des compétences techniques pointues tout en comprenant leur application concrète dans le domaine
+                    de l'ingénierie.<br> L'aspect attractif de cette poursuite d'études réside également dans la réputation et l'excellence académique de ces établissements, qui contribueront à renforcer ma crédibilité sur le marché du travail.<br> En
+                    somme, intégrer l'ESNA et l'ENSSAT représente pour moi une étape cruciale vers une formation complète, alliant savoir-faire technique et expertise professionnelle, afin de me préparer au mieux pour les défis de ma future carrière.<br>                    Je suis enthousiaste à l'idée de commencer ce nouveau chapitre éducatif et professionnel qui promet une croissance significative dans le domaine de l'ingénierie.</p>
+
+                <!-- Section sur les Futurs Métiers envisageables -->
+                <h4 id="list-item-3">Futurs Métiers envisageables</h4>
+                <p>
+                    Aspirer à devenir cryptologue, RSSI (Responsable de la Sécurité des Systèmes d'Information) et hacker éthique représente pour moi une voie professionnelle fascinante.<br> En me dirigeant vers ce domaine, je souhaite devenir un expert
+                    en sécurité informatique, spécialisé dans la protection des données et la prévention des cyberattaques.<br> En tant que cryptologue, je m'immergerai dans le monde complexe des codes et des chiffres, cherchant à sécuriser les communications
+                    et à préserver la confidentialité des informations.<br> Le rôle de RSSI implique la supervision globale de la sécurité des systèmes d'information, veillant à ce que toutes les données soient protégées contre les menaces potentielles.<br>                    En parallèle, en tant que hacker éthique, je chercherai à identifier les failles de sécurité de manière éthique, contribuant ainsi à renforcer la résilience des systèmes contre les cybercriminels.<br> Cette carrière captivante m'offrira
+                    l'opportunité de relever des défis stimulants et de contribuer activement à la protection numérique, ce qui motive ma décision de poursuivre cette voie professionnelle enrichissante.<br> Je suis impatient(e) d'explorer les nuances
+                    de la cybersécurité et de mettre en pratique ces compétences pour garantir un environnement numérique plus sûr et plus résistant.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Pied de page avec des informations de copyright et un lien Bootstrap -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">© 2024 MEILLAREC Youenn</p>
+
+            <!-- Lien Bootstrap dans le pied de page -->
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+
+            <!-- Liens de navigation dans le pied de page -->
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Back to top</a></li>
+            </ul>
+        </footer>
+    </div>
+
+</body>
+
+</html>

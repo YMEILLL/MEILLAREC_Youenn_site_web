@@ -1,0 +1,134 @@
+/* Définition du fond du site avec une image centrée et redimensionnée pour couvrir */
+
+body {
+    background: url('../images/fond_site.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 2%;
+}
+
+
+/* Style pour une classe 'my-photo' utilisée probablement pour une photo personnelle */
+
+
+.my-photo {
+    max-height: 200px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  .my-photo:hover {
+    max-height: 200px;
+    transform: scale(1.2);
+    filter: brightness(0.9);
+  }
+
+/* Style pour les titres avec une taille de police de 25px et une couleur blanche */
+
+.titre {
+    font-size: 25px;
+    color: white;
+}
+
+
+/* Style pour une classe 'themed-image' avec centrage et marges */
+
+.themed-image {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+
+/* Style pour un élément avec la classe 'debut' avec une couleur blanche et centrage */
+
+.debut {
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+
+/* Style pour des colonnes dans une grille avec une bordure, un arrondi et une couleur blanche */
+
+.themed-grid-col {
+    border: 10px solid rgba(0, 0, 0, 0.11);
+    border-radius: 5%;
+    text-align: center;
+    color: white;
+    margin-top: 1%;
+}
+
+
+/* Style pour une barre de navigation avec une taille de police de 30px et des marges */
+
+.navbar {
+    font-size: 30px;
+    margin: 2%;
+}
+
+
+/* Style pour un pied de page avec une bordure, un arrondi et une couleur blanche */
+
+.themed-footer {
+    border: 10px solid rgba(0, 0, 0, 0.11);
+    border-radius: 5%;
+    text-align: center;
+    color: white;
+    margin-top: 1%;
+}
+
+
+/* Style pour un élément avec la classe 'RT' avec une couleur blanche et centrage */
+
+.RT {
+    color: white;
+    text-align: center;
+}
+
+
+/* Style global pour certains éléments avec une couleur de texte blanche */
+
+div,
+footer,
+ul {
+    color: white;
+}
+
+
+/* Style pour une boîte avec une hauteur, un rembourrage, une bordure et une couleur spécifiés */
+
+.box {
+    height: 400px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 2%;
+    background-color: white;
+    margin-top: 20px;
+    color: black;
+}
+
+.scrollspy-example {
+    /* Position relative pour positionner les éléments enfants de manière relative à cet élément */
+    position: relative;
+    /* Hauteur fixe de 450 pixels pour l'élément */
+    height: 450px;
+    /* Activation du défilement vertical si le contenu dépasse la hauteur spécifiée */
+    overflow: auto;
+}
+
+.card {
+    transition: transform 0.3s ease, filter 0.3s ease;
+    background: none;
+    border-radius: 2%;
+    padding: 15%;
+    margin: 8%;
+  }
+  
+.card:hover {
+    transform: scale(1.1);
+    filter: brightness(1.5);
+    background: none;
+    border-radius: 2%;
+    padding: 15%;
+    margin: 8%;
+}
