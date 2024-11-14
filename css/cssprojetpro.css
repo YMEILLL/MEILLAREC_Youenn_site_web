@@ -1,0 +1,8 @@
+.div,
+img {
+    /* Définir une marge à gauche de 70 pixels */
+    margin-left: 70px;
+    /* Définir une hauteur fixe de 300 pixels */
+    height: 300px;
+
+}

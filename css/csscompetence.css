@@ -1,0 +1,15 @@
+/* Style de l'image */
+img {
+    left: -100%; /* Position initiale à l'extérieur de l'écran */
+    animation: slideIn 2s ease-out forwards;
+  }
+  
+  /* Animation pour faire glisser l'image de gauche à droite */
+  @keyframes slideIn {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 0;
+    }
+  }

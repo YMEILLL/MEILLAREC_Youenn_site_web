@@ -1,0 +1,4 @@
+.row:hover > :not(:hover){
+    filter: blur(5px);
+    opacity: 0.5;
+}
